@@ -4,5 +4,5 @@ Small project for playing around with [FingerprintJS](https://github.com/fingerp
 
 Usage with docker or podman:
 
-`podman build -t staticweb .`
-`podman run --name staticweb --rm -p 8080:80 staticweb`
+    podman build -t staticweb .
+    podman run --name staticweb --rm -p 8080:80 staticweb
